@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="navbar">
+		<img src="images/logo.png" class="logo">
+		<nav>
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">MY project</a></li>
+				
+			</ul>
+		</nav>
+		<button><a href="https://t.me/vanzoell"></a>contact me</button>
+	</div>
+	<section id="landing">
+        <div>
+            <h1> Hi welcome to my hut</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores corrupti perspiciatis dolorem rerum saepe aliquam neque, atque inventore voluptatem ipsum dignissimos nisi. Maxime atque cupiditate adipisci, id esse at quisquam?.</p>
+            <div>
+                <a class="btn" href="https://t.me/vanzoell">Contact Us</a>
+				<a class="cv" href="images/FahrulFahmi.pdf" download>download CV</a>
+				<img src="images/download.webp" alt="DOWNLOAD CV" width="25px">
+				 </div>
+
+				<div class="icon">
+					<a href="linked"><img src="images/linkind.jpg" width="30px"></a>
+					<a href="ig"><img src="images/Instagram.svg" width="30px"></a>
+					<a href="fb"><img src="images/Facebook.svg" width="30px"></a>
+					<a href="twiter"><img src="images/Twitter.svg" width="30px"></a>
+				
+				</div>
+			
+        </div>
+        <div class="profile">
+			<fieldset>
+            <img src="images/picture.jpeg" width="300px">
+			<h2>fahrul fahmi</h2>
+			<p>full stack deplopment</p>
+			</fieldset>
+        </div>
+			</section>
+
+			<form name="demoForm" onsubmit="return validateForm()" method="post">
+				<h3>GET IN TOCH</h3>
+				<div class="row">
+					<label>Name :</label>
+					<input type="text" name="name" id="nama" placeholder="Your name .." />
+				</div>
+				<div class="row">
+					<label>Email :</label>
+					<input type="email" name="email" id="email" placeholder="Your email.."/>
+				</div>
+				<div class="row">
+					<label>Mobile Number</label>
+					<input type="number" name="mobile" id="mobile" maxlength="10" placeholder="your number..."/>
+					<div class="errtext" id="mobileErr"></div>
+				</div>
+				
+				<div class="row">
+					<label>subject</label>
+					<select name="subject" id="subject">
+						<option>Select</option>
+						<option>frontend</option>
+						<option>Backand</option>
+						<option>Devops</option>
+					</select>
+					<div class="errtext" id="countryErr"></div>
+				</div>
+				<div class="row">	
+					<label for="subject">Subject</label>
+					<textarea id="desc" name="subject" placeholder="Write something.."></textarea>
+				
+					</div>
+				</div>
+				<div class="row">
+					<input type="submit" value="submit"  />
+				</div>
+			</form>
+			<script src="contact.js"></script>
+	</body>
+</html>
